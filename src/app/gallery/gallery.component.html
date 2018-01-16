@@ -1,0 +1,8 @@
+<h2>{{ title }}</h2>
+<div class="row">
+  <ul id="thumbnailsList">
+    <li *ngFor="let image of visibleImages">
+      <img src="{{ image.url }}" class="thumbnail">
+    </li>
+  </ul>
+</div>
