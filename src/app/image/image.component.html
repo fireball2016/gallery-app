@@ -1,3 +1,13 @@
-<p>
-  image works!
-</p>
+<div class="row">
+  <div class="col-md-12">
+    <img [ngStyle]="{'background-image':'url('+ image.url +')'}" class="img-big" >
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 caption-row">
+    <span id="caption">
+    {{ image.caption }}
+    </span>
+    </div>
+</div>
